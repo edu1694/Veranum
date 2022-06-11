@@ -1,0 +1,45 @@
+.container {
+    margin-top: 10px;
+    width: 50%;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    padding: 15px;
+    display: block;
+    top: 90%;
+    left: 50%;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(42, 90, 203);
+    color: white;
+}
+
+.container a {
+    color: white;
+}
+
+body {
+    background-color: rgb(174, 229, 229);
+}
+
+.panel-title {
+    text-align: center;
+    font-family: monospace;
+}
+
+@media (max-width: 847px) {
+    .container {
+        width: 100%;
+        font-size: small;
+        margin-top: 20px;
+    }
+    .panel-title {
+        font-size: x-large;
+    }
+}
+
+.img-reg {
+    display: block;
+    margin: 0px auto;
+    width: 60%;
+    height: 230px;
+}

@@ -1,0 +1,120 @@
+{% extends 'app/base.html' %} {% load static %} {% block css %}
+
+<link rel="stylesheet" href="{% static 'app/css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'app/css/titulo.css' %}">
+<link rel="stylesheet" href="{% static 'app/css/css_recomendacione.css' %}"> {% endblock %} {% block js %} {% endblock %} {% block contenido %}
+<div class="tarjeta">
+    <div class="Titulo">
+        <div class="info">
+            <div>
+                <h1 class="badge">LOS MEJORES</h1>
+                <h1 class="badge">MENUS DEL RESTAURANT</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Numero 1 -->
+    <div class="card">
+        <div class="face front">
+            <img src="{% static 'app/img/IMAGEN-INTERIOR-MOBILE_-640X280-5.jpg' %}" alt="">
+            <h3>Cazuela de vacuno</h3>
+        </div>
+        <div class="face back">
+            <h3>Cazuela de vacuno</h3>
+            <p>La cazuela es una sopa preparada con carne de res, pollo o cordero, que se acompaña con verduras como patatas, calabaza y mazorca de maíz. Es un típico cocido invernal para entrar en calor durante el frío.</p>
+            <div class="link">
+                <a href="#">Mas detalles</a>
+            </div>
+        </div>
+    </div>
+    <!-- Numero 2 -->
+    <div class="card">
+        <div class="face front">
+            <img src="{% static 'app/img/chorrillana-comida.jpg' %}" alt="">
+            <h3>Chorrillana</h3>
+        </div>
+        <div class="face back">
+            <h3>Chorrillana</h3>
+            <p>Comida preparada y consumida en Chile con una gran carga de calorías. Tiene como base abundantes papas fritas a las que se le colocan cebollas fritas, longaniza, trozos de carne de res y huevos fritos.</p>
+            <div class="link">
+                <a href="#">Mas detalles</a>
+            </div>
+        </div>
+    </div>
+    <!-- Numero 3 -->
+    <div class="card">
+        <div class="face front">
+            <img src="{% static 'app/img/ensalada-a-la-chilena.jpg' %}" alt="">
+            <h3>Ensalada a la chilena</h3>
+        </div>
+        <div class="face back">
+            <h3>Ensalada a la chilena</h3>
+            <p>Sencillo platillo que acompaña muchas comidas típicas chilenas, entre ellas, el asado con papas. Se prepara con tomates maduros y cebollas cortadas al estilo pluma y se acompaña con un vino.</p>
+            <div class="link">
+                <a href="#">Mas detalles</a>
+            </div>
+        </div>
+    </div>
+    <!-- Numero 4 -->
+    <div class="card">
+        <div class="face front">
+            <img src="{% static 'app/img/piscola-bebida.jpg' %}" alt="">
+            <h3>Piscola</h3>
+        </div>
+        <div class="face back">
+            <h3>Piscola</h3>
+            <p>Sabroso trago que no falta en las fiestas, reuniones o compartir de familiares o amigos chilenos, que se prepara al mezclar un poco de licor pisco con Coca Cola y bastante hielo.</p>
+            <div class="link">
+                <a href="#">Mas detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Numero 5 -->
+    <div class="card">
+        <div class="face front">
+            <img src="{% static 'app/img/Receta-de-camarones-al-pil-pil-Comidas-Chilenas.jpg' %}" alt="">
+            <h3>Camarones al pil pil</h3>
+        </div>
+        <div class="face back">
+            <h3>Camarones al pil pil</h3>
+            <p>Los camarones al pil pil son una exquisitez. Los camarones son uno de los productos del mar con mayor aceptación entre los chilenos.
+            </p>
+            <div class="link">
+                <a href="#">Mas detalles</a>
+            </div>
+        </div>
+    </div>
+    <!-- Numero 6 -->
+    <div class="card">
+        <div class="face front">
+            <img src="{% static 'app/img/plateada-comida.jpg' %}" alt="">
+            <h3>Plateada</h3>
+        </div>
+        <div class="face back">
+            <h3>Plateada</h3>
+            <p>Platillo preparado en una olla con carne suave y blanda. Se le añade ajo, sal, pimienta, un vino tinto fuerte y algunas cucharaditas de vinagre. Todo se cocina a fuego muy bajo y nunca se le pone agua.</p>
+            <div class="link">
+                <a href="#">Mas detalles</a>
+            </div>
+        </div>
+    </div>
+    <!-- Numero 7 -->
+    <div class="card">
+        <div class="face front">
+            <img src="{% static 'app/img/locos-comida.jpg' %}" alt="">
+            <h3>Locos</h3>
+        </div>
+        <div class="face back">
+            <h3>Locos</h3>
+            <p>El loco es un duro y blanco molusco típico de las aguas chilenas que constituye una de las comidas típicas del país. Se cocina en agua después de haber sido “apaleado” en la ceniza y se sirve con una ensalada de lechugas y papas mayo.</p>
+            <div class="link">
+                <a href="#">Mas detalles</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

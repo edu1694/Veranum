@@ -1,0 +1,74 @@
+{% extends 'app/base.html' %} {% load static %} {% block css %}
+<link rel="stylesheet" href="{% static 'app/css/css_reservas.css' %}"> {% endblock %} {% block contenido %}
+<div class="blog-body">
+    <div class="title-new">
+        <h3>Membresia Oro</h3>
+    </div>
+    <div class="media">
+        <img class="d-flex align-self-start mr-3" src="{% static 'app/img/bronce.jpg' %}" alt="Generic placeholder image">
+        <div class="media-body">
+            <h4 class="mt-0"> Tips de como cuidar a tus perritos recién nacidos <span class="badge badge-secondary">Nuevo</span></h4>
+            <p>Sabes qué hacer con tus perritos recién nacidos? en este tip te mostramos los mejores consejos para hacerlos crecer grandes y fuertes, ya sean consejos sobre su alimentación hasta la temperatura ideal para mantener sanos a tus perritos.
+            </p>
+        </div>
+
+    </div>
+    <div class="media2">
+        <div class="media-body">
+            <h4 class="mt-0"> Tips de como cuidar a tus perritos recién nacidos <span class="badge badge-secondary">Nuevo</span></h4>
+            <p>Sabes qué hacer con tus perritos recién nacidos? en este tip te mostramos los mejores consejos para hacerlos crecer grandes y fuertes, ya sean consejos sobre su alimentación hasta la temperatura ideal para mantener sanos a tus perritos.</p>
+        </div>
+    </div>
+    <div>
+        <button type="button" class="btn btn-dark" id="btn-tip1">Presiona para ver!</button>
+    </div>
+</div>
+
+<div class="blog-body">
+    <div class="title-new">
+        <h3>Membresia plata</h3>
+    </div>
+    <div class="media">
+        <img class="d-flex align-self-start mr-3" src="{% static 'app/img/silver.jpg' %}" alt="Generic placeholder image">
+        <div class="media-body">
+            <h4 class="mt-0"> Nombres para tus perritos y gatitos!</h4>
+            <p>Sabemos lo dificil que es elegir el nombre de tus mascotitas, aquí te mostramos unos nombres bonitos y únicos!
+            </p>
+        </div>
+
+    </div>
+    <div class="media2">
+        <div class="media-body">
+            <h4 class="mt-0"> Nombres para tus perritos y gatitos! </h4>
+            <p>Sabemos lo dificil que es elegir el nombre de tus mascotitas, aquí te mostramos unos nombres bonitos y únicos!</p>
+        </div>
+    </div>
+    <div>
+        <button type="button" class="btn btn-dark" id="btn-tip2">Presiona para ver!</button>
+    </div>
+</div>
+
+<div class="blog-body">
+    <div class="title-new">
+        <h3>Membresia bronce</h3>
+    </div>
+    <div class="media">
+        <img class="d-flex align-self-start mr-3" src="{% static 'app/img/gold.jpg' %}" alt="Generic placeholder image">
+        <div class="media-body">
+            <h4 class="mt-0"> Sabes qué hacer cuando tu mascota se atora?</h4>
+            <p>Si no sabes qué hacer en estos casos, en este pequeño articulo te contaremos paso por paso qué hacer en caso de que tu mascota se esté ahogando.
+            </p>
+        </div>
+
+    </div>
+    <div class="media2">
+        <div class="media-body">
+            <h4 class="mt-0"> Sabes qué hacer cuando tu mascota se atora?</h4>
+            <p>Si no sabes qué hacer en estos casos, en este pequeño articulo te contaremos paso por paso qué hacer en caso de que tu mascota se esté ahogando.</p>
+        </div>
+    </div>
+    <div>
+        <button type="button" class="btn btn-dark" id="btn-tip3">Presiona para ver!</button>
+    </div>
+</div>
+{% endblock %}
